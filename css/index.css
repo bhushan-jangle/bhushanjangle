@@ -23,7 +23,7 @@ body{
     background:#f7fff7;
     margin: 0px;
     padding: 0px;
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
@@ -61,7 +61,7 @@ h4{
 
 h1 , h2{
     margin: 4px;
-    font-family: 'Limelight', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
 }
 
@@ -244,7 +244,7 @@ footer{
 
 @media screen and (max-width:859px) {
     h1{
-        font-size: 45px;
+        font-size: 40px;
         margin-bottom: 10px;
     }
     h2{
@@ -276,4 +276,40 @@ footer{
         display: inline-block;
     }
 
+}
+
+
+@media screen and (max-width:439px) {
+	h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    /* .contact-item{
+        display: inline-flex;
+        grid-template-columns: 1fr, 1fr;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+    .contact-link{
+        flex: 0  0 60%;  /* flex-grow, flex-shrink, flex-basis */
+        /* flex-wrap: wrap;
+    } */
+
+    .skill-sets{
+        list-style-type: none;
+        padding: 0;
+        display: list-item;
+        justify-content: left;
+    }
+    
+    .skill-sets li{
+        padding: 8px;
+        display: inline-block;
+    }
 }
