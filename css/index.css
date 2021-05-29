@@ -60,9 +60,13 @@ h4{
 }
 
 h1 , h2{
-    margin: 4px;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
+}
+
+p{
+	padding-left:4px;
 }
 
 .btn{
